@@ -1,0 +1,81 @@
+body{
+  background-color: black;
+}
+.container{
+  margin-left: 70px;
+  width: 1300px;
+  background-color: white;
+  
+}
+
+ .navbar-container img{
+  width: 85px;
+  margin: 40px 100px;
+ }
+
+.navbar-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center
+}
+.grow-list ul{
+  display: flex;
+  gap: 40px;
+  margin-right: 250px;
+}
+.grow-list{
+  padding-left: 0px;
+}
+.list li{
+  text-decoration: none;
+  list-style-type: none;
+  opacity: 0.5;
+}
+.list{
+  margin-left: 0px;
+}
+.button-group button{
+  background-color: rgb(69, 69, 174);
+  height: 45px;
+  width: 120px;
+  color: white;
+  border-radius: 10px;
+  margin-right: 140px;
+}
+.list-item:hover{
+  opacity: 1;
+ 
+}
+.banner-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items:center;
+  
+}
+.heading-text{
+  font-size: 50px;
+  margin-left: 100px;
+  margin-top: -100px;
+}
+.heading-text span{
+  color: rgb(97, 97, 223);
+
+}
+.description{
+  opacity: 0.5;
+  margin-left: 100px;
+  margin-top: -10px;
+  margin-bottom: 80px;
+}
+.nav-button.btn{
+  
+  background-color: rgb(69, 69, 174);
+  height: 55px;
+  width: 170px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 120px;
+
+}
